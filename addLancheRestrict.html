@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalho Final</title>
+                <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body style="background-color: bisque;">
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-sm  sticky-top" style="background-color: bisque;">
+            <div class="container-fluid">
+                <a class="navbar-brand"     href="index.html"><img src="imgBootstrap/iconLanche.png" alt="" width="35px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="quemSomos.html"><h5>Quem Somos</h5></a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="formLogin.html" title="Acessar o sistema"><h5>Login</h5></a>
+                        </li>  
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fale Conosco</a>
+                            <ul class="dropdown-menu">
+                                <li ><p class="dropdown-item">Entre em contato no email lanche@gmail.com ou no fone (042)98888-3333</p></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Área Restrita</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="addLancheRestrict.html">Adicionar Lanche</a></li>
+                                <li><a class="dropdown-item" href="curricRestrict.html">Mandar Curriculo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><br>
+
+
+
+
+        <!-- Div para abrigar o conteúdo da página -->
+        <div class="container mt-7 text-center p-5  " style="margin-bottom:100px; background-color: crimson; border-radius: 10px;" ><br>
+            <h2 style="color: white;">Entrada de Lanches no cardapio</h2><br>    
+            <form action="#" class="was-validated">
+
+                <div class="container" style="width: 50%;">
+                    <div class="form-floating mb-3 mt-3 ">
+                        <input type="Text" class="form-control" id="nomeRegisLanche" placeholder="Insira o nome" name="nomeRegisLanche" required>
+                        <label for="nomeRegisLanche">Nome</label>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="ingRegisLanche" placeholder="Insira os ingrendientes" name="ingRegisLanche" required>
+                        <label for="ingRegisLanche">Ingrendientes</label>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="preçoRegisLanche" placeholder="Insira o preço" name="preçoRegisLanche" required>
+                        <label for="preçoRegisLanche">Preço</label>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="file" class="form-control" id="ftRegisLanche" placeholder="Insira a foto" name="ftRegisLanche" required>
+                        <label for="ftRegisLanche">Foto</label>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+
+                    <br>
+
+                <a href="formErro.html"><button type="#" class="btn" style="background-color: bisque; color: crimson;">Registrar</button></a>
+
+            </form>
+
+        <!--Rodapé-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Rua Lentilha 198 (042)98888-3333</a>
+            </div>
+        </nav>
+
+    </body>
+</html>
