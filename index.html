@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalho Final</title>
+                <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+
+     <!-- Nav Bar -->
+     <nav class="navbar navbar-expand-sm  sticky-top" style="background-color: bisque;">
+        <div class="container-fluid">
+            <a class="navbar-brand"     href="index.html"><img src="imgBootstrap/iconLanche.png" alt="" width="35px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="quemSomos.html"><h5>Quem Somos</h5></a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="formLogin.html" title="Acessar o sistema"><h5>Login</h5></a>
+                    </li>  
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fale Conosco</a>
+                        <ul class="dropdown-menu">
+                            <li ><p class="dropdown-item">Entre em contato no email lanche@gmail.com ou no fone (042)98888-3333</p></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Área Restrita</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="addLancheRestrict.html">Adicionar Lanche</a></li>
+                            <li><a class="dropdown-item" href="curricRestrict.html">Mandar Curriculo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner content-center " >
+                <div class="carousel-item active">
+                    <img src="imgBootstrap/lanche1.webp" alt="lanche1" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>MIAMIAMI</h3>
+                        <p>Delicioso!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imgBootstrap/lanche2.avif" alt="lanche2" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>DA AGUA NA BOCA</h3>
+                        <p>Saboroso!</p>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="imgBootstrap/lanche3.webp" alt="lanche3" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>MUITO BOM</h3>
+                        <p>Cheiroso!</p>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+
+
+        <!-- Lista de lanches -->
+      
+        <div style="background-color:crimson;"><br>
+            <div class="container text-center text-white">
+                <h1>Nossos Lanches!</h2>
+
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div class="card p-2 m-5" style="width:100%; background-color: bisque;">
+                            <img class="card-img-top" src="imgBootstrap/lancheCar2.jpg" alt="Card image" style="width:50%">
+                            <div class="card-body">
+                                <h4 class="card-title">Bacon Gourmet</h4>
+                                <p class="card-text">Pão, bacon, hamburguer de costela 170g...</p>
+                                <a href="formPagamento.html" class="btn btn-danger">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4" >
+                        <div class="card p-2 m-5" style="width:100%; background-color: bisque;">
+                            <img class="card-img-top" src="imgBootstrap/lancheCar2.jpg" alt="Card image" style="width:50%">
+                            <div class="card-body">
+                                <h4 class="card-title">Combo Gordura</h4>
+                                <p class="card-text">Porção de batata Rústica+ Refri coca + Lanche</p>
+                                <a href="formPagamento.html" class="btn btn-danger">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card p-2 m-5" style="width:100%; background-color: bisque;">
+                            <img class="card-img-top" src="imgBootstrap/lancheCar2.jpg" alt="Card image" style="width:50%">
+                            <div class="card-body">
+                                <h4 class="card-title">Combo Gordura</h4>
+                                <p class="card-text">Porção de batata Rústica+ Refri coca + Lanche</p>
+                                <a href="formPagamento.html" class="btn btn-danger">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 ">
+                        <div class="card p-2 m-5 " style="width:100%; background-color: bisque;">
+                            <img class="card-img-top" src="imgBootstrap/lancheCar2.jpg" alt="Card image" style="width:50%">
+                            <div class="card-body">
+                                <h4 class="card-title">Combo Gordura</h4>
+                                <p class="card-text">Porção de batata Rústica+ Refri coca + Lanche</p>
+                                <a href="formPagamento.html" class="btn btn-danger">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card p-2 m-5" style="width:100%; background-color: bisque;">
+                            <img class="card-img-top" src="imgBootstrap/lancheCar2.jpg" alt="Card image" style="width:50%">
+                            <div class="card-body">
+                                <h4 class="card-title">Combo Gordura</h4>
+                                <p class="card-text">Porção de batata Rústica+ Refri coca + Lanche</p>
+                                <a href="formPagamento.html" class="btn btn-danger">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-sm-4">
+                        <div class="card p-2 m-5" style="width:100%; background-color: bisque;     ">
+                            <img class="card-img-top" src="imgBootstrap/lancheCar2.jpg" alt="Card image" style="width:50%">
+                            <div class="card-body">
+                                <h4 class="card-title">Combo Gordura</h4>
+                                <p class="card-text">Porção de batata Rústica+ Refri coca + Lanche</p>
+                                <a href="formPagamento.html" class="btn btn-danger">Pedir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+
+
+     
+
+
+        <!--Rodapé-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Rua Lentilha 198 (042)98888-3333</a>
+            </div>
+        </nav>
+
+    </body>
+</html>
